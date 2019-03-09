@@ -1,0 +1,23 @@
+{
+	"dimesions": [9, 50, 50, 7],
+	"hidden activation function": "relu",
+	"output activation function": "softmax",
+	"cost function": "cross_entropy",
+	"learning rate": 0.0025,
+	"Initial Weight Range": ["0", ".1"],
+	"optimizer": "adamOptimizer", 
+	"data source": "glass",
+	"parameters": [25, 1000, 0, 8],
+	"Case Fraction": 1.0,
+	"validation fraction": 0.1,
+	"validation interval": 100,
+	"test fraction": 0.1,
+	"minibatch size": 32,
+	"Map Batch Size": 8,
+	"steps": 3000,
+	"Map Layers": {"in": [0], "out": [2]},
+	"Map Dendograms": {"out": [0, 1]},
+	"Display Weights": [],
+	"Display Biases": [0,1],
+	"softmax": "False"
+}

@@ -1,0 +1,23 @@
+{
+	"dimesions": [11, 200, 200, 6],
+	"hidden activation function": "relu",
+	"output activation function": "softmax",
+	"cost function": "cross_entropy",
+	"learning rate": 0.0025,
+	"Initial Weight Range": ["0", "0.1"],
+	"optimizer": "RMSPropOptimizer", 
+	"data source": "wine",
+	"parameters": [16, 11],
+	"Case Fraction": 1.0,
+	"validation fraction": 0.1,
+	"validation interval": 100,
+	"test fraction": 0.1,
+	"minibatch size": 32,
+	"Map Batch Size": 20,
+	"steps": 6000,
+	"Map Layers": {"out": [2], "in": [0]},
+	"Map Dendograms": {"out": [1]},
+	"Display Weights": [],
+	"Display Biases": [],
+	"softmax": "False"
+}

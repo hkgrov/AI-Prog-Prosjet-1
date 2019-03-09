@@ -1,0 +1,23 @@
+{
+	"dimesions": [4, 6, 3],
+	"hidden activation function": "sigmoid",
+	"output activation function": "softmax",
+	"cost function": "mse",
+	"learning rate": 0.09,
+	"Initial Weight Range": ["0", ".1"],
+	"optimizer": "gradientDescent", 
+	"data source": "iris",
+	"parameters": [25, 1000, 0, 8],
+	"Case Fraction": 1.0,
+	"validation fraction": 0.1,
+	"validation interval": 10,
+	"test fraction": 0.1,
+	"minibatch size": 16,
+	"Map Batch Size": 8,
+	"steps": 6000,
+	"Map Layers": {"in": [0], "out": [0,1]},
+	"Map Dendograms": {"out": [0, 1]},
+	"Display Weights": [0,1],
+	"Display Biases": [0,1],
+	"softmax": "False"
+}
